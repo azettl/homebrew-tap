@@ -8,8 +8,8 @@ cask "duckwork" do
   homepage "https://duckwork.ai/"
 
   livecheck do
-    url "https://duckwork.ai/"
-    regex(%r{Duckwork[._-]v?(\d+(?:\.\d+)+)\.zip}i)
+    url "https://duckwork.ai/changelog"
+    regex(%r{<h2>v?(\d+(?:\.\d+)+)}i)
   end
 
   depends_on arch: :arm64
