@@ -1,6 +1,6 @@
 cask "duckwork" do
-  version "0.1.0"
-  sha256 "332f6ae227dc4abb3fe78a3169acfe5f2e578c5ff077ea0fee3bbe63fb49b235"
+  version "0.2.0"
+  sha256 "e118f82fc439528899dabe289b4616f09e02f38f08accba7db34489f0b22385b"
 
   url "https://duckwork.ai/assets/downloads/Duckwork-#{version}.zip"
   name "Duckwork"
